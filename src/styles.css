@@ -1,1 +1,68 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    font-family: 'Indie Flower', cursive;
+}
+
+body {
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+
+/* Horario */
+
+#day-hour {
+    background: red;
+}
+
+.day-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.day {}
+
+.day-name {
+    border: solid #dfdfdf 1px;
+    padding: 1vw 2vw;
+}
+
+.day-name h5 {
+    display: flex;
+    text-align: center;
+    font-size: 17px;
+}
+
+.day-name h5 span {
+    padding-left: 5px;
+}
+
+.list-hour {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-course {
+    cursor: pointer;
+}
+
+.container-all-color {
+    width: 100%;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.color {
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.color:hover {
+    opacity: .8;
+}
